@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Teams_and_Member";
+}
+
+<div style="width: 100%; background-color: azure; margin: 10px">
+    <div class="navbar">
+        <h1>Reve Systems</h1>
+        <nav>
+            <a class="btn" href="/Home/Index">Home</a>
+            <a class="btn" href="/Home/Services">Services</a>
+            <a class="btn" href="/Home/Teams_and_Member">Teams and Member</a>
+            <a class="btn" href="/Home/Contact">Contact</a>
+        </nav>
+    </div>
+</div>
+
+<h2>Teams_and_Member</h2>
+<br>
+<span>
+    <b>Name:</b> @ViewBag.Name1<br>
+    <b>Position:</b> @ViewData["msg1"]<br>
+    <br>
+    <b>Name:</b> @ViewBag.Name2<br>
+    <b>Position:</b> @ViewData["msg2"]<br>
+    <br>
+    <b>Name:</b> @ViewBag.Name3<br>
+    <b>Position:</b> @ViewData["msg3"]<br>
+</span>

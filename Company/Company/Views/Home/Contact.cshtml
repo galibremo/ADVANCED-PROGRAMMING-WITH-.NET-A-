@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<main aria-labelledby="title">
+    <div style="width: 100%; background-color: azure; margin: 10px">
+        <div class="navbar">
+            <h1>Reve Systems</h1>
+            <nav>
+                <a class="btn" href="/Home/Index">Home</a>
+                <a class="btn" href="/Home/Services">Services</a>
+                <a class="btn" href="/Home/Teams_and_Member">Teams and Member</a>
+                <a class="btn" href="/Home/Contact">Contact</a>
+            </nav>
+        </div>
+    </div>
+    <div style="width:100%">
+        <form>
+            <h4>Address: @ViewBag.Address</h4>
+            <h4>Phone: @ViewBag.Phone</h4>
+            <h4>Email: @ViewBag.Email</h4>
+            <h4>Query:</h4><textarea style="width:100%"></textarea>
+        </form>
+    </div>
+</main>
